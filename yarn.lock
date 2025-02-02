@@ -849,8 +849,14 @@ __metadata:
     "@types/node": "npm:^22.13.0"
     "@vanilla-extract/css": "npm:^1.17.1"
     "@vanilla-extract/esbuild-plugin": "npm:^2.3.14"
+    "@vanilla-extract/integration": "npm:^8.0.0"
     esbuild: "npm:^0.24.2"
     typescript: "npm:^5.7.3"
+  dependenciesMeta:
+    "@vanilla-extract/esbuild-plugin@2.3.14":
+      unplugged: true
+    "@vanilla-extract/integration@8.0.0":
+      unplugged: true
   languageName: unknown
   linkType: soft
 
