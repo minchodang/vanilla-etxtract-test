@@ -31,6 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@vanilla-extract/css", "npm:1.17.1"],\
           ["@vanilla-extract/esbuild-plugin", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:2.3.14"],\
           ["@vanilla-extract/integration", "npm:8.0.0"],\
+          ["@vanilla-extract/sprinkles", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:1.6.3"],\
           ["esbuild", "npm:0.24.2"],\
           ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"]\
         ],\
@@ -613,14 +614,14 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@vanilla-extract/esbuild-plugin", [\
       ["npm:2.3.14", {\
-        "packageLocation": "./.yarn/unplugged/@vanilla-extract-esbuild-plugin-virtual-3b26ae06c9/node_modules/@vanilla-extract/esbuild-plugin/",\
+        "packageLocation": "../../../.yarn/berry/cache/@vanilla-extract-esbuild-plugin-npm-2.3.14-7cee45b280-10c0.zip/node_modules/@vanilla-extract/esbuild-plugin/",\
         "packageDependencies": [\
           ["@vanilla-extract/esbuild-plugin", "npm:2.3.14"]\
         ],\
         "linkType": "SOFT"\
       }],\
       ["virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:2.3.14", {\
-        "packageLocation": "./.yarn/unplugged/@vanilla-extract-esbuild-plugin-virtual-3b26ae06c9/node_modules/@vanilla-extract/esbuild-plugin/",\
+        "packageLocation": "./.yarn/__virtual__/@vanilla-extract-esbuild-plugin-virtual-3b26ae06c9/4/.yarn/berry/cache/@vanilla-extract-esbuild-plugin-npm-2.3.14-7cee45b280-10c0.zip/node_modules/@vanilla-extract/esbuild-plugin/",\
         "packageDependencies": [\
           ["@vanilla-extract/esbuild-plugin", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:2.3.14"],\
           ["@types/esbuild", null],\
@@ -636,7 +637,7 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@vanilla-extract/integration", [\
       ["npm:8.0.0", {\
-        "packageLocation": "./.yarn/unplugged/@vanilla-extract-integration-npm-8.0.0-215c1d2ec7/node_modules/@vanilla-extract/integration/",\
+        "packageLocation": "../../../.yarn/berry/cache/@vanilla-extract-integration-npm-8.0.0-215c1d2ec7-10c0.zip/node_modules/@vanilla-extract/integration/",\
         "packageDependencies": [\
           ["@vanilla-extract/integration", "npm:8.0.0"],\
           ["@babel/core", "npm:7.26.7"],\
@@ -658,6 +659,28 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/@vanilla-extract-private-npm-1.0.6-6569b02004-10c0.zip/node_modules/@vanilla-extract/private/",\
         "packageDependencies": [\
           ["@vanilla-extract/private", "npm:1.0.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@vanilla-extract/sprinkles", [\
+      ["npm:1.6.3", {\
+        "packageLocation": "../../../.yarn/berry/cache/@vanilla-extract-sprinkles-npm-1.6.3-8553c69abf-10c0.zip/node_modules/@vanilla-extract/sprinkles/",\
+        "packageDependencies": [\
+          ["@vanilla-extract/sprinkles", "npm:1.6.3"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:1.6.3", {\
+        "packageLocation": "./.yarn/__virtual__/@vanilla-extract-sprinkles-virtual-fa2842cd6a/4/.yarn/berry/cache/@vanilla-extract-sprinkles-npm-1.6.3-8553c69abf-10c0.zip/node_modules/@vanilla-extract/sprinkles/",\
+        "packageDependencies": [\
+          ["@vanilla-extract/sprinkles", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:1.6.3"],\
+          ["@types/vanilla-extract__css", null],\
+          ["@vanilla-extract/css", "npm:1.17.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/vanilla-extract__css",\
+          "@vanilla-extract/css"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1006,6 +1029,7 @@ const RAW_RUNTIME_STATE =
           ["@vanilla-extract/css", "npm:1.17.1"],\
           ["@vanilla-extract/esbuild-plugin", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:2.3.14"],\
           ["@vanilla-extract/integration", "npm:8.0.0"],\
+          ["@vanilla-extract/sprinkles", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:1.6.3"],\
           ["esbuild", "npm:0.24.2"],\
           ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"]\
         ],\

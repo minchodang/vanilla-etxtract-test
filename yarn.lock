@@ -511,6 +511,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vanilla-extract/sprinkles@npm:^1.6.3":
+  version: 1.6.3
+  resolution: "@vanilla-extract/sprinkles@npm:1.6.3"
+  peerDependencies:
+    "@vanilla-extract/css": ^1.0.0
+  checksum: 10c0/17e03af9d090aa175bdeae646ae4a5bf1da37b7e473caa4ab92efbbd7678e53137e10281a0669f50ab5bd985a59e621da2bfc3e0cc28bded32becd72b8cfaf13
+  languageName: node
+  linkType: hard
+
 "acorn@npm:^8.14.0":
   version: 8.14.0
   resolution: "acorn@npm:8.14.0"
@@ -850,13 +859,9 @@ __metadata:
     "@vanilla-extract/css": "npm:^1.17.1"
     "@vanilla-extract/esbuild-plugin": "npm:^2.3.14"
     "@vanilla-extract/integration": "npm:^8.0.0"
+    "@vanilla-extract/sprinkles": "npm:^1.6.3"
     esbuild: "npm:^0.24.2"
     typescript: "npm:^5.7.3"
-  dependenciesMeta:
-    "@vanilla-extract/esbuild-plugin@2.3.14":
-      unplugged: true
-    "@vanilla-extract/integration@8.0.0":
-      unplugged: true
   languageName: unknown
   linkType: soft
 
