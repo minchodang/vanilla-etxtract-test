@@ -8,16 +8,9 @@
         "@vanilla-extract/css": "^1.17.1",
         "@vanilla-extract/esbuild-plugin": "^2.3.14",
         "@vanilla-extract/integration": "^8.0.0",
+        "@vanilla-extract/sprinkles": "^1.6.3",
         "esbuild": "^0.24.2",
         "typescript": "^5.7.3"
     },
-    "packageManager": "yarn@4.6.0",
-    "dependenciesMeta": {
-        "@vanilla-extract/esbuild-plugin@2.3.14": {
-            "unplugged": true
-        },
-        "@vanilla-extract/integration@8.0.0": {
-            "unplugged": true
-        }
-    }
+    "packageManager": "yarn@4.6.0"
 }
